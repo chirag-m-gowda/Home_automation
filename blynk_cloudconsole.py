@@ -2,8 +2,6 @@ import BlynkLib
 import RPi.GPIO as GPIO
 from BlynkTimer import BlynkTimer
 
-#BLYNK_AUTH_TOKEN = 'UTQ3KkXKdNFMXFElWeHt7KqpyWPCMFAF'
-
 device1 = 26
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(device1, GPIO.OUT)
